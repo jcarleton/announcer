@@ -2,9 +2,12 @@ import json
 import yaml
 import status
 
+
 jsonexport = []
 
+
 def main():
+
     with open("proc.yaml", 'r') as procStream:
         data_loaded = yaml.safe_load(procStream)
 
